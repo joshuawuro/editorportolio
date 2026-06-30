@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback } from "react";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   const headerRef = useRef(null);
@@ -95,13 +96,16 @@ export default function Header() {
               </li>
             ))}
           </ul>
-          <a
-            href="#contact"
-            className="nav__cta"
-            onClick={(e) => handleNavClick(e, "#contact")}
-          >
-            Let&apos;s Work Together
-          </a>
+          <div className="nav__actions" style={{ display: "flex", alignItems: "center", gap: "var(--space-md)" }}>
+            <ThemeToggle />
+            <a
+              href="#contact"
+              className="nav__cta"
+              onClick={(e) => handleNavClick(e, "#contact")}
+            >
+              Let&apos;s Work Together
+            </a>
+          </div>
           <button
             className={`nav__toggle ${isMobileMenuOpen ? "active" : ""}`}
             ref={toggleRef}
@@ -130,6 +134,9 @@ export default function Header() {
             </li>
           ))}
         </ul>
+        <div style={{ marginTop: "var(--space-2xl)" }}>
+          <ThemeToggle />
+        </div>
       </div>
     </>
   );

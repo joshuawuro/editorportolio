@@ -47,6 +47,24 @@
     /* Shadows */
     --shadow-glow: 0 0 40px rgba(168, 85, 247, 0.15);
     --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3);
+    --clr-header-bg: rgba(10, 10, 15, 0.85);
+    --clr-mobile-menu-bg: rgba(10, 10, 15, 0.98);
+}
+
+[data-theme="light"] {
+    --clr-bg: #f9f9fb;
+    --clr-bg-secondary: #ffffff;
+    --clr-bg-tertiary: #f0f0f5;
+    --clr-surface: rgba(0, 0, 0, 0.03);
+    --clr-surface-hover: rgba(0, 0, 0, 0.06);
+    --clr-border: rgba(0, 0, 0, 0.08);
+    --clr-border-hover: rgba(0, 0, 0, 0.15);
+    --clr-text: #0a0a0f;
+    --clr-text-secondary: #5a5a6a;
+    --clr-text-muted: #8a8a9a;
+    --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.05);
+    --clr-header-bg: rgba(249, 249, 251, 0.85);
+    --clr-mobile-menu-bg: rgba(249, 249, 251, 0.98);
 }
 
 /* ===== RESET & BASE ===== */
@@ -136,7 +154,7 @@ body:hover .cursor-glow {
 }
 
 .header.scrolled {
-    background: rgba(10, 10, 15, 0.85);
+    background: var(--clr-header-bg);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--clr-border);
@@ -272,7 +290,7 @@ body:hover .cursor-glow {
 .mobile-menu {
     position: fixed;
     inset: 0;
-    background: rgba(10, 10, 15, 0.98);
+    background: var(--clr-mobile-menu-bg);
     backdrop-filter: blur(20px);
     z-index: 999;
     display: flex;
@@ -1434,6 +1452,50 @@ body:hover .cursor-glow {
     .callout__dot {
         display: none;
     }
+}
+
+/* ===== THEME TOGGLE ===== */
+.theme-toggle {
+    background: var(--clr-surface);
+    border: 1px solid var(--clr-border);
+    color: var(--clr-text);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition-base);
+}
+
+.theme-toggle:hover {
+    border-color: var(--clr-accent-1);
+    background: var(--clr-surface-hover);
+    transform: scale(1.05);
+}
+
+.theme-toggle__icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform var(--transition-slow);
+}
+
+.theme-toggle:hover .theme-toggle__icon-wrapper {
+    transform: rotate(15deg);
+}
+
+.theme-toggle__icon {
+    transition: color var(--transition-base);
+}
+
+.theme-toggle__icon--sun {
+    color: #f59e0b; /* Warm gold */
+}
+
+.theme-toggle__icon--moon {
+    color: #6366f1; /* Cool indigo */
 }
 
 
