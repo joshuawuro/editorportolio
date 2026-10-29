@@ -10,47 +10,47 @@ const PROJECTS = [
     title: "Motor Insurance Commercial",
     desc: "Professional commercial showcase reel featuring dynamic cuts, sound design, and typography overlays.",
     tags: ["Transitions", "Commercial", "Captioning"],
-    videoUrl: "https://inaftktvcuzljjbkebme.supabase.co/storage/v1/object/sign/portfolio-videos/motor-insurance-commercial.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZDk0M2VmOC0xOTQzLTRhNDEtYWE5OS03YmEzY2Y4MmM1MDIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW8tdmlkZW9zL21vdG9yLWluc3VyYW5jZS1jb21tZXJjaWFsLm1wNCIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODI5MTI3ODUsImV4cCI6MTgxNDQ0ODc4NX0.9jv8vwrCoNb_COFdmcB31gTpKogiIAX8JeHUIZg6npY",
+    videoUrl: "/videos/motor-insurance-commercial.mp4",
     thumbnailUrl: null,
   },
   {
     id: 2,
     category: "client",
     badge: "Client Work",
-    title: "Travel Insurance Promo",
-    desc: "Scenic campaign highlight reel with trendy beat-synced editing, color matching, and engaging pacing.",
-    tags: ["Beat Sync", "Promo", "Color Matching"],
-    videoUrl: "https://inaftktvcuzljjbkebme.supabase.co/storage/v1/object/sign/portfolio-videos/travel-insurance-promo.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZDk0M2VmOC0xOTQzLTRhNDEtYWE5OS03YmEzY2Y4MmM1MDIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW8tdmlkZW9zL3RyYXZlbC1pbnN1cmFuY2UtcHJvbW8ubXA0Iiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MjkxMjgwNCwiZXhwIjoxODE0NDQ4ODA0fQ.2NoK4u0tPLPBGcdEGgrKgP0F_GEHpJBShORoOb59yhU",
+    title: "Cargo & Marine Insurance",
+    desc: "Comprehensive coverage showcase emphasizing trust, logistics, and visual storytelling.",
+    tags: ["Marine & Cargo", "Commercial", "Color Grading"],
+    videoUrl: "/videos/cargo-and-marine-insurance.mp4",
     thumbnailUrl: null,
   },
   {
     id: 3,
     category: "client",
     badge: "Client Work",
-    title: "Short-Form Creative Edit",
-    desc: "High-retention social media reel using fast cuts, VFX assets, and modern kinetic captions.",
-    tags: ["Short-Form", "Reels", "Sound Design"],
-    videoUrl: "https://inaftktvcuzljjbkebme.supabase.co/storage/v1/object/sign/portfolio-videos/creative-short-form.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZDk0M2VmOC0xOTQzLTRhNDEtYWE5OS03YmEzY2Y4MmM1MDIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW8tdmlkZW9zL2NyZWF0aXZlLXNob3J0LWZvcm0ubXA0Iiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MjkxMjY2OCwiZXhwIjoxODE0NDQ4NjY4fQ.CfT2KtoqOd22Rc-eDbArKMfQB4Pp9aMIjUXwiXwp4AI",
+    title: "Cargo Cover Motion Promo",
+    desc: "High-retention social reel with kinetic typography, beat-synced pacing, and motion graphics.",
+    tags: ["Short-Form", "Motion Graphics", "Beat Sync"],
+    videoUrl: "/videos/cargo-cover-promo.mp4",
     thumbnailUrl: null,
   },
   {
     id: 4,
     category: "personal",
     badge: "Personal",
-    title: "Cinematic Reel Edit",
-    desc: "A highly dynamic personal showcase edit demonstrating advanced timing, speed ramping, and motion graphics.",
-    tags: ["Speed Ramps", "Color Grading", "VFX"],
-    videoUrl: "https://inaftktvcuzljjbkebme.supabase.co/storage/v1/object/sign/portfolio-videos/cinematic-reel-edit.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZDk0M2VmOC0xOTQzLTRhNDEtYWE5OS03YmEzY2Y4MmM1MDIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW8tdmlkZW9zL2NpbmVtYXRpYy1yZWVsLWVkaXQubXA0Iiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MjkxMjc2MiwiZXhwIjoxODE0NDQ4NzYyfQ.MFff1vCs89hhwVHkUDFMVHk8nJj5J3Jh4z5IoZ5O_SQ",
+    title: "Breast Cancer Awareness",
+    desc: "Impactful awareness campaign visual featuring emotive pacing, delicate color grading, and clean overlays.",
+    tags: ["Awareness", "Color Grading", "Storytelling"],
+    videoUrl: "/videos/breast-cancer-awareness.mp4",
     thumbnailUrl: null,
   },
   {
     id: 5,
     category: "personal",
     badge: "Personal",
-    title: "Short Story Reading Visuals",
-    desc: "Atmospheric visual edit designed to accompany and highlight spoken-word and narrative readings.",
-    tags: ["Sound Design", "Mood Edit", "Typography"],
-    videoUrl: "https://inaftktvcuzljjbkebme.supabase.co/storage/v1/object/sign/portfolio-videos/narrative-reading-visuals.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZDk0M2VmOC0xOTQzLTRhNDEtYWE5OS03YmEzY2Y4MmM1MDIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW8tdmlkZW9zL25hcnJhdGl2ZS1yZWFkaW5nLXZpc3VhbHMubXA0Iiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MjkxMjY5MiwiZXhwIjoxODE0NDQ4NjkyfQ.iE5tu0n0S6xsfYj6wiSfiFYB9V6uC_7qbrALwvq0yZw",
+    title: "Holiday Celebration Reel",
+    desc: "Atmospheric holiday seasonal edit capturing warm visuals, peaceful transitions, and ambient soundscapes.",
+    tags: ["Seasonal", "Sound Design", "Mood Edit"],
+    videoUrl: "/videos/holiday-celebration-promo.mp4",
     thumbnailUrl: null,
   }
 ];
@@ -182,8 +182,10 @@ export default function Work() {
                     <div className="project-card__thumbnail">
                       {project.videoUrl ? (
                         <video
-                          src={project.videoUrl}
+                          src={`${project.videoUrl}#t=0.001`}
                           preload="metadata"
+                          muted
+                          playsInline
                           style={{ width: "100%", height: "100%", objectFit: "cover" }}
                         />
                       ) : (
@@ -246,7 +248,7 @@ export default function Work() {
             &times;
           </div>
           <div className="media-modal__content" onClick={(e) => e.stopPropagation()}>
-            <video src={activeMedia.url} controls autoPlay className="media-modal__video" />
+            <video src={activeMedia.url} controls autoPlay playsInline className="media-modal__video" />
             <h4 className="media-modal__title">{activeMedia.title}</h4>
           </div>
         </div>

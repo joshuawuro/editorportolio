@@ -1,3 +1,2 @@
-# Exclude large video files from Vercel deployment
-# Host these on YouTube or Google Drive and reference them via URL instead
-public/videos/
+# Videos under 20MB are hosted in public/videos
+# public/videos/
