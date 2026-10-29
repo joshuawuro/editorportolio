@@ -10,7 +10,7 @@ const PROJECTS = [
     title: "Motor Insurance Commercial",
     desc: "Professional commercial showcase reel featuring dynamic cuts, sound design, and typography overlays.",
     tags: ["Transitions", "Commercial", "Captioning"],
-    videoUrl: "/videos/motor-insurance-commercial.mp4",
+    videoUrl: "https://hqtoauwiftrfrmmnouaw.supabase.co/storage/v1/object/public/VIDEOS/motor-insurance-commercial.mp4",
     thumbnailUrl: null,
   },
   {
@@ -20,7 +20,7 @@ const PROJECTS = [
     title: "Cargo & Marine Insurance",
     desc: "Comprehensive coverage showcase emphasizing trust, logistics, and visual storytelling.",
     tags: ["Marine & Cargo", "Commercial", "Color Grading"],
-    videoUrl: "/videos/cargo-and-marine-insurance.mp4",
+    videoUrl: "https://hqtoauwiftrfrmmnouaw.supabase.co/storage/v1/object/public/VIDEOS/cargo-and-marine-insurance.mp4",
     thumbnailUrl: null,
   },
   {
@@ -30,7 +30,7 @@ const PROJECTS = [
     title: "Cargo Cover Motion Promo",
     desc: "High-retention social reel with kinetic typography, beat-synced pacing, and motion graphics.",
     tags: ["Short-Form", "Motion Graphics", "Beat Sync"],
-    videoUrl: "/videos/cargo-cover-promo.mp4",
+    videoUrl: "https://hqtoauwiftrfrmmnouaw.supabase.co/storage/v1/object/public/VIDEOS/cargo-cover-promo.mp4",
     thumbnailUrl: null,
   },
   {
@@ -40,7 +40,7 @@ const PROJECTS = [
     title: "Breast Cancer Awareness",
     desc: "Impactful awareness campaign visual featuring emotive pacing, delicate color grading, and clean overlays.",
     tags: ["Awareness", "Color Grading", "Storytelling"],
-    videoUrl: "/videos/breast-cancer-awareness.mp4",
+    videoUrl: "https://hqtoauwiftrfrmmnouaw.supabase.co/storage/v1/object/public/VIDEOS/breast-cancer-awareness.mp4",
     thumbnailUrl: null,
   },
   {
@@ -50,7 +50,7 @@ const PROJECTS = [
     title: "Holiday Celebration Reel",
     desc: "Atmospheric holiday seasonal edit capturing warm visuals, peaceful transitions, and ambient soundscapes.",
     tags: ["Seasonal", "Sound Design", "Mood Edit"],
-    videoUrl: "/videos/holiday-celebration-promo.mp4",
+    videoUrl: "https://hqtoauwiftrfrmmnouaw.supabase.co/storage/v1/object/public/VIDEOS/holiday-celebration-promo.mp4",
     thumbnailUrl: null,
   }
 ];

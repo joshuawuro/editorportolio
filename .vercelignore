@@ -1,2 +1,2 @@
-# Videos under 20MB are hosted in public/videos
-# public/videos/
+# Exclude local videos from Vercel deployment
+public/videos/
