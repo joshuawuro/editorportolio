@@ -1,4 +1,4 @@
-import { Outfit, Space_Grotesk } from "next/font/google";
+import { Outfit, Space_Grotesk, Great_Vibes } from "next/font/google";
 import "./globals.css";
 import CursorGlow from "@/components/CursorGlow";
 
@@ -14,8 +14,14 @@ const spaceGrotesk = Space_Grotesk({
   weight: ["400", "500", "600", "700"],
 });
 
+const greatVibes = Great_Vibes({
+  variable: "--font-calligraphy",
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
 export const metadata = {
-  title: "Video Editor Portfolio | Creative Reel Editing",
+  title: "Oruwa | Video Editor & Creative Reel Portfolio",
   description:
     "Professional video editor specializing in reels and short-form content for brands and personal projects. View my portfolio of stunning visual stories.",
 };
@@ -24,7 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} ${spaceGrotesk.variable}`}
+        className={`${outfit.variable} ${spaceGrotesk.variable} ${greatVibes.variable}`}
         style={{ fontFamily: "var(--font-outfit), 'Outfit', sans-serif" }}
       >
         <CursorGlow />

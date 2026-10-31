@@ -44,7 +44,7 @@ export default function Contact() {
   return (
     <section className="contact" id="contact">
       <div className="container">
-        <div className="contact__card animate-on-scroll">
+        <div className="contact__card animate-scale-up">
           <div className="contact__bg-effect"></div>
           <div className="contact__content">
             <span className="section-tag">Get In Touch</span>

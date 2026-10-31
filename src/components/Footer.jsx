@@ -19,11 +19,9 @@ export default function Footer() {
             onClick={(e) => handleNavClick(e, "#home")}
           >
             <span className="logo-icon">▶</span>
-            <span className="logo-text">
-              JOSHUA<span className="logo-accent">WURO</span>
-            </span>
+            <span className="logo-text logo-text--calligraphy">Oruwa</span>
           </a>
-          <p className="footer__copy">&copy; 2026 joshuawuro. Crafted with passion.</p>
+          <p className="footer__copy">&copy; 2026 Oruwa. Crafted with passion.</p>
           <div className="footer__socials">
             <a
               href="https://instagram.com/_joshuawuro"

@@ -1,9 +1,9 @@
 export default function About() {
   const tools = [
-    { name: "Premiere Pro", shortcut: "Pr" },
-    { name: "After Effects", shortcut: "Ae" },
-    { name: "DaVinci Resolve", shortcut: "Da" },
-    { name: "CapCut", shortcut: "Cc" },
+    { name: "Premiere Pro", shortcut: "Pr", icon: "/images/tools/premiere-pro.svg" },
+    { name: "After Effects", shortcut: "Ae", icon: "/images/tools/after-effects.svg" },
+    { name: "DaVinci Resolve", shortcut: "Da", icon: "/images/tools/davinci-resolve.png" },
+    { name: "CapCut", shortcut: "Cc", icon: "/images/tools/capcut.png" },
   ];
 
   const highlights = [
@@ -41,7 +41,7 @@ export default function About() {
     <section className="about" id="about">
       <div className="container">
         <div className="about__grid">
-          <div className="about__image-col animate-on-scroll">
+          <div className="about__image-col animate-fade-right">
             <div className="about__image-wrapper">
               <img
                 src="/images/me.png"
@@ -63,8 +63,23 @@ export default function About() {
               <span className="section-tag">Tools I Use</span>
               <div className="tools-grid">
                 {tools.map((tool) => (
-                  <div key={tool.name} className="tool-item">
-                    <div className="tool-icon">{tool.shortcut}</div>
+                  <div
+                    key={tool.name}
+                    className="tool-item"
+                    title={tool.name}
+                    aria-label={tool.name}
+                  >
+                    <div className="tool-icon">
+                      {tool.icon ? (
+                        <img
+                          src={tool.icon}
+                          alt={tool.name}
+                          className="tool-icon__img"
+                        />
+                      ) : (
+                        tool.shortcut
+                      )}
+                    </div>
                     <span>{tool.name}</span>
                   </div>
                 ))}
@@ -95,9 +110,9 @@ export default function About() {
                 I bring the same energy and attention to detail to every project.
               </p>
             </div>
-            <div className="about__highlights animate-on-scroll">
-              {highlights.map((h) => (
-                <div key={h.title} className="highlight-card">
+            <div className="about__highlights">
+              {highlights.map((h, idx) => (
+                <div key={h.title} className="highlight-card animate-on-scroll" data-delay={idx * 100}>
                   <div className="highlight-card__icon">{h.icon}</div>
                   <div>
                     <h4>{h.title}</h4>

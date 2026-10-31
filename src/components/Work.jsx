@@ -178,7 +178,10 @@ export default function Work() {
                     transition: "var(--transition-base), opacity 0.4s ease, transform 0.4s ease",
                   }}
                 >
-                  <div className="project-card__media">
+                  <div
+                    className="project-card__media"
+                    onClick={() => isInteractive && handlePlayClick(project)}
+                  >
                     <div className="project-card__thumbnail">
                       {project.videoUrl ? (
                         <video

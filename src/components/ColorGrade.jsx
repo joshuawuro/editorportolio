@@ -16,7 +16,7 @@ export default function ColorGrade() {
 
         <div className="color-grade__container">
           {/* Left Callout: Graded */}
-          <div className="color-grade__callout color-grade__callout--left animate-on-scroll">
+          <div className="color-grade__callout color-grade__callout--left animate-fade-right">
             <div className="callout__content">
               <h3>Color Graded</h3>
               <p>
@@ -28,7 +28,7 @@ export default function ColorGrade() {
           </div>
 
           {/* Centered Image */}
-          <div className="color-grade__image-wrapper animate-on-scroll">
+          <div className="color-grade__image-wrapper animate-scale-up">
             <img
               src="/images/before and after.jpg"
               alt="Before and After Color Grading Showcase"
@@ -36,7 +36,7 @@ export default function ColorGrade() {
           </div>
 
           {/* Right Callout: Raw */}
-          <div className="color-grade__callout color-grade__callout--right animate-on-scroll">
+          <div className="color-grade__callout color-grade__callout--right animate-fade-left">
             <div className="callout__content">
               <h3>S-Log & Rec.709 Raw</h3>
               <p>

@@ -79,9 +79,7 @@ export default function Header() {
             onClick={(e) => handleNavClick(e, "#home")}
           >
             <span className="logo-icon">▶</span>
-            <span className="logo-text">
-              JOSHUA<span className="logo-accent">WURO</span>
-            </span>
+            <span className="logo-text logo-text--calligraphy">Oruwa</span>
           </a>
           <ul className="nav__links">
             {navItems.map((item) => (
